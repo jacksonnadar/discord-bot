@@ -15,7 +15,7 @@ client.on('ready', () => {
 
 client.on('message', (msg) => {
   console.log(msg.author);
-  if (msg.author.id == '534629359810772993') {
+  if (msg.author.id == '534629359810772993' || '431490737683824661') {
     msg.reply(chooseRandomSentence());
   }
 });
